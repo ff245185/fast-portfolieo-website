@@ -1,39 +1,58 @@
-h1{
-    
-    color: rgb(3, 0, 0);
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 50p;
-}
-.new{
-    color: crimson;
-}
-section{
-    display:flex;
-}
 body{
-    background-color: bisque;
-    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
 }
-.orange{
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orangered;
+}
+.orint{
+    display: flex;
+    margin: 15px;
+}
+.helf-width{
     width:50%;
-    padding:5%;
+    
 }
-.orange img{
-    width: 100%;
+.helf-width img{
+    width:90%;
+    padding-right: 10px;
 }
-.fave{
-   background-color: blue;
-    padding: 5px 10px;
+.link-button{
+    background-color: darkred;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 3px; 
+    padding: 5px 10px;
     color: aliceblue;
     font-weight: 700;
-    
+
 }
-.mongo{ 
-    background-image:url(images/top-banner.png);
-    background-repeat:no-repeat;
-    margin:0;
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.helf{
+    width:40%;
+    margin-left:5%;
+     margin-right:5%;
+     padding-left:20px;
+     border-radius: 5px;
+     box-shadow: 10px 10px 40px gray;
      
+}
+.orint-t{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
